@@ -3,8 +3,9 @@ import urllib
 import urllib2
 import re
 
-#page  = 1
-url = 'http://www.qiushibaike.com'
+pageIndex  = 1
+#url = 'http://www.qiushibaike.com'
+url = 'http://www.qiushibaike.com/8hr/page/' + str(pageIndex) + '/?s=4894079'
 user_agent = 'Mozilla/5.0 (Windows NT 6.1; WOW64)'
 headers = {'User-Agent' : user_agent}
 try:
